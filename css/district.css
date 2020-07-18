@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    overflow-x: hidden;
+   
+    box-sizing: border-box; 
+
+}
+div{
+    display: block;
+}
+
+.navbar{
+   
+    margin-bottom: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    background: transparent;
+    background: linear-gradient(0deg,rgba(41, 41, 41, 0.7),rgba(8, 111, 1, 0.8)) 75% 50%;
+    width: 100vw;
+    
+}   
+    
+.navbar-brand img{
+    float: left;
+    height: 4rem;
+    padding: 0 10px 5px;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+    
+}
+.dropdown .dropdown-menu {
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg,rgba(41, 41, 41, 0.7),rgba(8, 111, 1, 0.8)) 50% 75%;
+    
+}
+.dropdown-item{
+   
+    padding-bottom: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    padding-right: 10px;
+    
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: orange;
+}
+.dropdown-item:hover{
+    background-color:transparent;
+    color: orange;
+}
+.caption_image{
+    
+    background-image: url(../images/muthanga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    
+    /* margin: 0px;
+    padding: 0px;*/
+    background-attachment: fixed; 
+    z-index: -1;
+}
+
+.display-4{
+    color: white;
+    font-style: italic;
+    /* display: block; */
+    text-shadow: 1px 2px 13px #000;  
+    border: 3px solid white; 
+    text-align: center;
+    overflow-y: hidden;
+    
+}.dist_info{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.dist_descrp h2{
+    /* line-height: normal; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}   
+.dist_descrp{
+    /* line-height: normal; */
+    overflow-y: hidden;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(83, 75, 75, 0.7);
+    
+}
+
+.dist_fig{
+    max-height:250px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+.dist_dtls{
+    max-height:250px;
+
+}
+img{
+    width:100%;
+    height: 100%;
+    height: 250px;
+}
+.dist_dtls{
+    height:250px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.dist_info-reverse{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* contact section */
+footer{
+    background-color: rgba(8, 111, 1, 0.8);
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.top-footer-start{
+    border-right: 1px solid grey;
+    padding-left:60px;
+}
+.top-footer-middle{
+    border-right: 1px solid grey;
+    text-align: center;
+}
+.top-footer-end{
+    padding-left:60px;
+}
+footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+footer a{
+    color: white;
+}
+
+footer .fab{
+    
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+footer .fab:hover{
+    color: #ffc107!important;
+}
+hr.socket{
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}

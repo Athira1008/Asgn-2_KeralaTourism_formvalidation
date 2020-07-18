@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+body{
+     background-image: url(../images/1\ -\ Copy.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: scroll;
+}
+/*-----navigation----*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background:rgba(0,0,0,0.6)!important; 
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.navbar .navbar-expand-md .navbar-dark ,
+.navbar .navbar-expand-md .navbar-dark :hover{
+    background-color: white;
+}
+.register-right{
+    padding:20px 40px;
+    margin-top: 60px;  
+    background-color: rgba(176, 231, 199, 0.26);
+    -webkit-box-shadow: 31px 52px 62px 8px rgba(176,231,199,0.26);
+    -moz-box-shadow: 31px 52px 62px 8px rgba(176,231,199,0.26);
+    box-shadow: 31px 52px 62px 8px rgba(176,231,199,0.26);
+    border-radius: 10px;
+    
+}
+h1{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.nameField{
+    font-weight: 200;
+    color: white;
+    font-size: 15px;
+} 
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+.form-group input[type="text"], .form-group input[type="password"]{
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.register-right .btn-info{
+    float: right;
+    border-radius: 1.5rem;
+    width: 120px;
+    border: none;
+    background: #ff9800;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+}
+.register-right .btn-info:hover{
+    background: #ff5722;
+}
+
+
+
+
+

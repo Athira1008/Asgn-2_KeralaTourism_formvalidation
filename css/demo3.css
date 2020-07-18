@@ -1,0 +1,273 @@
+#events-culture{
+    background-color: papayawhip;
+}
+.eventsContent{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+.eventsContent h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: turquoise;
+    
+}
+/* art section */
+.artContent {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+.artTitle h4{
+    text-align: center;
+    
+    margin-bottom: 10px;
+    font-weight: 700;
+    color:orange;
+
+}
+
+
+/*art section-images */
+.col-md-12{
+    width: 100%;
+}
+.artBox {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    height:50%
+    
+}
+.artBox h2{
+    /* text-transform: uppercase; */
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    position: center;
+}
+.artBox p{
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    position: center;
+}
+.clip{
+    
+    clip: rect(auto,auto,auto,auto);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+ .artimg{
+    overflow: hidden;
+    position: absolute;
+    transition: none;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+  /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}  
+
+#artimg1{
+   
+   background-image: url(../images/Rugmangada_charitham_Kathakali_Play_59.jpg) ;
+}
+#artimg2{
+   
+    background-image: url(../images/1_PQFNCUeUuF1QS-uB_eswPA.jpeg) ; 
+ }
+ .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     text-align: center;
+  }
+
+ .text1 {
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .artBox:hover .artimg {
+    opacity: 0.5;
+  }
+  .artBox:hover .middle1 {
+    opacity: 1;
+  }
+  
+ /* for festivals/events section */
+ .festivalContent{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+ .festivalTitle h4{
+    text-align: center;
+    
+    margin-bottom: 10px;
+    font-weight: 700;
+    color:orange;
+
+}
+
+ .col-md-6{
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+}
+
+/* #festivalrow{
+  position: relative;
+} */
+  
+ .festivalBox {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 350px;
+  height:50%
+  /* margin-bottom: 30px; */
+}
+.festivalBox h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    position: center; 
+}
+ 
+.festivalimg{
+    overflow: hidden;
+    position: relative;
+    transition: none;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block; 
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}  
+
+#festivlaimg1{
+  background-image: url(../images/Thrissur_pooram_one_of_a_kind_51.jpg) ;
+  
+   
+}
+#festivalimg2{
+  
+    background-image: url(../images/20181023064920_245_1.jpg) ; 
+ }
+
+
+  .festivalBox:hover .festivalimg {
+    opacity: 0.5;
+  }
+  .festivalBox:hover .middle1 {
+    opacity: 1;
+  }
+  /* for ayurveda section  */
+  .ayurvedaBox {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    height:50%
+    /* margin-bottom: 30px; */
+}
+.ayurvedaBox h2{
+    /* text-transform: uppercase; */
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    position: center;
+}
+.ayurvedaBox p{
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    position: center;
+}
+
+ .ayurvedaimg{
+    overflow: hidden;
+    position: absolute;
+    transition: none;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+  /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}  
+
+#ayurvedaimg1{
+   
+   background-image: url(../images/ayurveda_medicines_2.jpg) ;
+}
+
+ .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     text-align: center;
+  }
+
+ .text1 {
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .ayurvedaBox:hover .ayurvedaimg {
+    opacity: 0.5;
+  }
+  .ayurvedaBox:hover .middle1 {
+    opacity: 1;
+  }

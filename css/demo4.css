@@ -1,0 +1,184 @@
+/* travel tips section */
+
+.specifications{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+ 
+}
+
+h2.heading{
+ 
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: turquoise;
+}
+i{
+    align-items: center;
+}
+.text-center{
+    margin-left:60px;
+    padding-right: 10px;
+}
+.travel .fas {
+    margin-top: 40px;
+    color: orangered;
+    padding-bottom: 1.4rem;
+    cursor: pointer;
+
+}
+.travel h5{
+    font-size: 1.3rem;
+   text-align: center;
+    padding-bottom: 0.4rem;
+    cursor: pointer;
+}
+/* for top destinations */
+#destinations{
+    background-color: papayawhip;
+}
+.destinationContent{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+.destinationContent h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: turquoise;
+}
+.destinationContent p{
+    
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.col-md-4{
+    width: 100%;
+}
+.destBox{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 30px;
+}
+ .clip{
+    clip: rect(auto,auto,auto,auto);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+} 
+ .dstimg{
+    
+    overflow: hidden;
+    position: absolute;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}  
+.dstimg:hover{
+    
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+
+#dstimg1{
+   
+   background-image: url(../images/maneesh_photography.jpg) ;
+}
+#dstimg2{
+ 
+   background-image: url(../images/deers-at-muthanga.jpg) ;
+}
+#dstimg3{
+  
+    background-image: url(../images/Vagamon_Where_your_holidays_soar_sky_high_147.jpg) ;  
+}
+#dstimg4{
+   
+    background-image: url(../images/Onam-Recipes.jpg) ;
+ }
+ #dstimg5{
+  
+    background-image: url(../images/Pathanamthitta.jpg) ;
+ }
+ #dstimg6{
+   
+     background-image: url(../images/kavvayi_backwaters_tangled_beauty20200114100412_685_1.jpg) ;  
+ }
+ .dtext {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 16px 16px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    cursor:pointer;
+  }
+  
+
+  /* contact section */
+footer{
+    background-color: rgba(8, 111, 1, 0.8);
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 0;
+    padding-left: 40px;
+}
+.top-footer-start{
+    border-right: 1px solid grey;
+    padding-left:60px;
+}
+.top-footer-middle{
+    border-right: 1px solid grey;
+    text-align: center;
+}
+.top-footer-end{
+    padding-left:60px;
+}
+footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+footer a{
+    color: white;
+}
+
+footer .fab{
+    
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+footer .fab:hover{
+    color: #ffc107!important;
+}
+hr.socket{
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+
+
+
+
